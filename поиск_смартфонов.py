@@ -14,7 +14,7 @@ try:
     time.sleep(10)
     search = browser.find_element(By.TAG_NAME,"input")
 
-    # search request for OZON.ru
+    # search request for citilink
     search.send_keys('Смартфон')
     search.send_keys(Keys.RETURN)
 
